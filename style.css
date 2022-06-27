@@ -1,0 +1,195 @@
+body{
+    font-family: 'Heebo', 'sans-serif';
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+a{
+    text-decoration: none;
+}
+a.navbar-link{
+    color: black !important;
+    font-size: 20px;
+}
+
+#navbar-div{
+    display: none;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 10px 40px;
+    font-weight: 500;
+}
+
+#backdrop{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    column-gap: 25px;
+    padding:2% 8%;
+    margin-top: 4%;   
+    text-align: center;
+}
+img.dp{
+    width: 200px;
+    height: auto;
+}
+
+@media screen and (min-width: 500px) {
+    #backdrop{
+        flex-direction: row;
+        text-align: left;
+    }
+    #backdrop-left-column{
+        width: 50%;
+        color: #212430;
+    }
+    img.dp{
+        width: 300px;
+        /* height: auto; */
+    }
+    #backdrop-right-column{
+        width: 45%;
+        text-align: center;
+    }
+    #navbar-div{
+        display: flex;
+    }
+    #backdrop-left-column>h1{
+        font-weight: 700;
+        font-size: 44px;
+    }
+    #card-container{
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    #recent-blog-posts-section{
+        background-color: #EDF7FA;
+        padding:1.5% 8%;
+    }
+}
+
+#backdrop-left-column{
+    width: 100%;
+    color: #212430;
+}
+#backdrop-left-column>h1{
+    font-size: 32px;
+}
+
+#backdrop-left-column>p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#backdrop-left-button{
+    background-color: #FF6464;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 0;
+}
+
+#backdrop-right-column{
+    width: 100%;
+    text-align: center;
+}
+
+#recent-blog-posts-section{
+    background-color: #EDF7FA;
+    padding:5% 2%;
+}
+#recent-posts-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-h4{
+    margin: 0;
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 400;
+}
+div.card{
+    color:#21243D;
+    font-weight: 400;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 22px;
+}
+
+#card-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+div.my-h2{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 10px auto;
+    color:#21243D;
+}
+
+div.card>span{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+div.card>p{
+    font-size: 16px;
+}
+
+
+section.featured-works{
+    background-color: white;
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+div.horizontal-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3%;
+}
+@media screen and (min-width:500px){
+
+    div.horizontal-card{
+        column-gap: 3%;
+        flex-direction: row;
+    }
+}
+span.pill{
+    background-color: #142850;
+    padding: 1.5px 15px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+span.secondary-text{
+    color: #8695A4;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+div.horizontal-card>div>p{
+    color: #21243D;
+    font-size: 16px;
+}
+
+div.horizontal-card>img{
+    border-radius: 6px;
+}
+
+#social-media-links-section{
+    font-size: 30px;
+    color: #142850;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
